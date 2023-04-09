@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pressure Washing Services</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <h1>Pressure Washing Services</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="services">
+                    <h2>Our Services</h2>
+                    <p>
+                        We offer a variety of pressure washing services,
+                        including:
+                    </p>
+                    <ul>
+                        <li>Exterior House Cleaning</li>
+                        <li>Deck and Patio Cleaning</li>
+                        <li>Driveway Cleaning</li>
+                        <li>Sidewalk and Walkway Cleaning</li>
+                        <li>Commercial Building Cleaning</li>
+                        <li>And More!</li>
+                    </ul>
+                </section>
+                <section id="gallery">
+                    <h2>Gallery</h2>
+                    <p>Check out some of our before-and-after photos:</p>
+                    <div class="gallery">
+                        <img src="img/before1.jpg" alt="Before" />
+                        <img src="img/after1.jpg" alt="After" />
+                        <img src="img/before2.jpg" alt="Before" />
+                        <img src="img/after2.jpg" alt="After" />
+                        <img src="img/before3.jpg" alt="Before" />
+                        <img src="img/after3.jpg" alt="After" />
+                    </div>
+                </section>
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p>
+                        We are a family-owned and operated pressure washing
+                        business serving the local community. Our team has years
+                        of experience and is dedicated to providing high-quality
+                        services at affordable prices.
+                    </p>
+                </section>
+                <section id="contact">
+                    <h2>Contact Us</h2>
+                    <p>
+                        Get in touch with us today to schedule a pressure
+                        washing appointment:
+                    </p>
+                    <form action="submit-form.php" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required />
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required />
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <h3>Contact Information</h3>
+                <p>Phone: 555-555-5555</p>
+                <p>Email: info@yourpressurewashingbusiness.com</p>
+                <p>
+                    Facebook:
+                    <a
+                        href="https://www.facebook.com/yourpressurewashingbusiness"
+                        >facebook.com/yourpressurewashingbusiness</a
+                    >
+                </p>
+                <p>Copyright © 2023 Pressure Washing Services.</p>
+            </footer>
+        </div>
+    </body>
+</html>
