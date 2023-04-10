@@ -176,3 +176,8 @@ footer a {
 .after-gallery {
   margin-left: 5%;
 }
+
+#quan {
+  width: 300px;
+  height: auto;
+}
